@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+ 
+
+        nav{
+  background-color: blanchedalmond;
+  background-size: cover;
+  padding-top: 1%;
+  width:100%;
+  overflow: none;
+  text-decoration: none;
+ 
+
+}
+a{
+    text-decoration: none;
+    color: black;
+ 
+}
+.navlink ul  li {
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 30px;
+    padding: 10px;
+    text-decoration: none;
+} 
+   .navlink ul{
+     justify-content: end;
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+}
+       body {
+            font-size: 8px;
+            background-image: url(https://img.freepik.com/premium-photo/blurred-cafe-restaurant-with-light-gold-night-modern-lifestyle-background_42691-468.jpg?w=1380);
+            background-size: cover; 
+             font-family: Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 40px;
+            
+        }
+        form {
+            width: 350px;
+            background: lightgoldenrodyellow;
+            /* padding: 10px; */
+            border: 1.5px solid #110101;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(16, 1, 1, 0.1);
+                padding: 60px;
+            font-size: 30px;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            margin-left: 37%;
+            margin-top: 5%;
+        }
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            font-size: 10px;
+            margin: 3px 0;
+        }
+        input, select {
+            width: 350px;
+            padding: 20px;
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+           
+            font-size: 30px;
+        }
+        .form-inline {
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+        }
+        input[type="submit"] {
+            background: rgb(247, 235, 170);
+            color: rgb(8, 1, 1);
+            font-size: 14px;
+            padding: 8px;
+            cursor: pointer;
+            border-radius: 3px;
+            width: 100%;
+            font-size: 20px;
+        }
+        
+        input[type="submit"]:hover {
+            background: #aaaeaa;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-div">
+            <div class="cafe" >
+                <h2>☕️ Coffee</h2>
+            </div>
+            <div class="navlink">
+                <ul>
+                   <a href="front.html"> <li>Home</li></a>
+                   
+                    <li>Booking </li>
+                <a href="register.html"> <li>Register </li></a>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <form>
+        <h2>REGISTER HERE</h2>
+       
+        <input type="text" name="name" placeholder=" Write Name">
+        
+      
+        <input type="email" name="email" placeholder="Email">
+
+       
+        <input type="number" name="number" placeholder="Mobile number">
+        
+        <input type="password" name="password" placeholder="password">
+        
+        <input type="confirm password" name="confirm password" placeholder="Confirm password">
+      
+        <a href="index.html"><button type="button">REGISTER</button></a>
+    </form>
+</body>
+</html>

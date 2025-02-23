@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cafe{
+    font-size: 40px;
+   
+    overflow: none;
+
+}
+
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/02/05/87/60/360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: cover;
+
+
+}
+nav{
+  background-color: blanchedalmond;
+  background-size: cover;
+  padding-top: 25px;
+  width:100%;
+  overflow: none;
+  text-decoration: none;
+ 
+
+}
+.navlink ul  li {
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 30px;
+    padding: 10px;
+    text-decoration: none;
+} 
+   .navlink ul{
+     justify-content: end;
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+button{
+    border-radius: 15px;
+    background-color: lightgoldenrodyellow;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.number1 {
+    text-align: center;
+    margin-top: 250px;
+   }
+   .feedbackhall{
+        background-color:white;
+
+   }
+
+ .number2  {
+    text-align: center;
+}
+.number4{
+     margin-top: 500px;
+     background-color: aliceblue;
+     background-size: cover ;
+     width: 100%;
+     border: 5px solid black;
+     border-top: 25px solid white;
+}
+.number4 p {
+    text-align:center;
+    width: 100%;
+
+    font-size: xx-large;
+
+
+    }
+    .mahanumber{
+        display: flex;
+        justify-content: spacebetween;
+        gap: 10px;
+
+
+    }
+    .number5{
+        margin-top: 500px;
+        background-color: aliceblue;
+        background-size: cover ;
+        width: 90%;
+        border: 5px solid white;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+   }
+   .number5 p {
+       text-align:center;
+       width: 100%;
+
+       font-size: xx-large;
+   }
+   .number6{
+    margin-top: 500px;
+    background-color: aliceblue;
+    background-size: cover ;
+    width: 90%;
+    border: 5px solid black;
+    border-top: 25px solid white;
+}
+.number6 p {
+   text-align:center;
+   width: 100%;
+
+   font-size: xx-large;
+}
+
+
+.feedback{
+    background-color: rgb(250, 242, 242);
+    text-align: center;
+    width: 2000px;
+    padding: 20px;
+}
+.feedback h1{
+    margin: 80px 0px 20px 0px;
+    padding: 60px;
+}
+.halls{
+    background-color: white;
+    background-size: cover;
+    padding:0;
+    text-align: center; 
+}
+
+
+
+.hall1 img{
+    width: 98%;
+    margin-top: 50px;
+}
+
+.hall1 h1{
+    margin-bottom: 100px;
+}
+.minihalls{
+    display: flex;
+    justify-content: spacebetween;
+    gap: 10px;
+    margin-bottom: 60px;
+   
+
+
+}
+.number4{
+    margin-top: 500px;
+    background-color: aliceblue;
+    background-size: cover ;
+    width: 90%;
+    border: 5px solid white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+
+.hell{
+    background-color: white;
+    width: 100%;
+
+}
+
+.hell h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+
+}
+.hell1{
+    
+    background-color: aliceblue;
+    background-size: cover ;
+    width: 100%;
+    border: 5px solid rgb(254, 253, 253);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.services{
+    background-image: url(https://d3j0t7vrtr92dk.cloudfront.net/tqcb/1603907993_ourservices-1280x720.png);
+     background-size: cover;
+     text-align: center;
+     display:flex ;
+     gap: 2rem;
+}
+.services h1{
+    margin-left: 00px;
+}
+
+
+.s1 h2{
+    font-size: xx-large;
+
+}
+.s1 p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+.services{
+    display: flex;
+    justify-content: spacebetween;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.s1{
+    margin-top: 500px;
+    background-color: palegoldenrod;
+    background-size: cover ;
+    width: 90%;
+    border: 5px solid white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+    margin-right: 60px;
+}
+
+ .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.footer-social ul {
+      padding: 0;
+      font-size: 20px;
+}
+
+.footer-social ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 20px;
+   
+}
+
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 20px;
+}
+
+.footer-social a:hover {
+
+  color: red;
+}
+
+
+.footer-text p {
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+@media (max-width: 1000px) {
+ 
+    .cafe {
+        font-size: 30px;
+    }
+
+    .navlink ul {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+   
+    .number1, .number2, .number4, .number5, .number6 {
+        margin-top: 30px;
+    }
+
+    .button {
+        padding: 15px;
+    }
+
+   
+    .nav-div {
+        flex-direction: column;
+    }
+
+    .mini-halls {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+   
+    .hall1 img, .services img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+  
+    .footer {
+        padding: 40px;
+    }
+
+    .footer-social ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+  
+    .footer-text p {
+        font-size: 16px;
+    }
+}
